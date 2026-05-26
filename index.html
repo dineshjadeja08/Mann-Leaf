@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mann & Leaf - Premium, village-made, eco-friendly household essentials handcrafted from coconut fiber, bamboo, jute, and clay. Discover sustainable utility products rooted in Indian village tradition.">
+    <meta name="keywords" content="eco-friendly home, handmade essentials, coconut broom, village artisans India, sustainable household, organic jute bags, clay pottery, bamboo craft">
+    <meta name="author" content="Mann & Leaf">
+    <meta property="og:title" content="Mann & Leaf | Handmade Village Essentials">
+    <meta property="og:description" content="Earthy, premium, and durable everyday household essentials handcrafted by Indian village artisans using coconut fiber, bamboo, jute, clay, and wood.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hero_broom.png">
+    
+    <title>Mann & Leaf | Handmade Village Essentials for Modern Homes</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to Main Content</a>
+
+    <!-- Header / Sticky Navigation -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo-group" aria-label="Mann & Leaf Home">
+                <!-- Custom Handcrafted Logo: Leaf + Fiber + Home Symbolism -->
+                <svg class="brand-logo" width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Home Roof Outline formed by a Leaf -->
+                    <path d="M50 15C38 30 25 45 25 60C25 75 35 85 50 85C65 85 75 75 75 60C75 45 62 30 50 15Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- Leaf Central Stem (Home Chimney/Spine) -->
+                    <path d="M50 25V80" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                    <!-- Woven Fiber Strands (Horizontal Home Floor Lines) -->
+                    <path d="M35 52C42 50 48 50 50 52" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M50 58C52 56 58 56 65 58" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M32 64C40 62 48 62 50 64" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M50 70C52 68 60 68 68 70" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <div class="brand-info">
+                    <span class="brand-name">Mann & Leaf</span>
+                    <span class="brand-subtext">Village Craft</span>
+                </div>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#story" class="nav-link">Our Story</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                    <li><a href="#process" class="nav-link">The Process</a></li>
+                    <li><a href="#hero-product" class="nav-link">Hero Broom</a></li>
+                    <li><a href="#marketplaces" class="nav-link">Shop Online</a></li>
+                    <li><a href="#wholesale" class="nav-btn-mobile">Bulk Orders</a></li>
+                </ul>
+            </nav>
+
+            <!-- Action Controls -->
+            <div class="header-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <!-- Light Mode Icon (Sun) -->
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <!-- Dark Mode Icon (Moon) -->
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <a href="#wholesale" class="nav-btn">Bulk Orders</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        
+        <!-- 1. Hero Section -->
+        <section class="hero-section" id="hero">
+            <!-- Subtle organic leafy texture overlay -->
+            <div class="organic-leaf-texture" aria-hidden="true"></div>
+            
+            <div class="section-container hero-container">
+                <div class="hero-content">
+                    <span class="eyebrow-badge animate-on-scroll">100% Handcrafted in Rural India</span>
+                    <h1 class="hero-title animate-on-scroll">Mann & Leaf</h1>
+                    <p class="hero-tagline animate-on-scroll">Handmade village essentials for modern homes.</p>
+                    <p class="hero-description animate-on-scroll">
+                        Honoring the timeless synergy of raw nature and village hands. We transform sustainable coconut fibers, bamboo, jute, and terracotta into durable everyday utilities, crafted specifically to bring grounded, organic warmth into contemporary urban living spaces.
+                    </p>
+                    <div class="hero-actions animate-on-scroll">
+                        <a href="#products" class="btn btn-primary">Shop Products</a>
+                        <a href="#wholesale" class="btn btn-secondary">Bulk Orders</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual animate-on-scroll">
+                    <!-- Layered frame showcasing the premium handcrafted hero product -->
+                    <div class="visual-frame">
+                        <img src="assets/hero_broom.png" alt="Mann & Leaf handcrafted premium coconut broom next to a clay vessel in a warm minimalist setting" class="hero-img">
+                        <div class="frame-backdrop"></div>
+                        <div class="organic-shape" aria-hidden="true"></div>
+                        <div class="badge-overlay">
+                            <span class="badge-number">100%</span>
+                            <span class="badge-text">Natural Fibers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Brand Story Section -->
+        <section class="story-section" id="story">
+            <div class="section-container">
+                <div class="story-grid">
+                    <div class="story-header animate-on-scroll">
+                        <span class="section-eyebrow">Our Roots</span>
+                        <h2 class="section-title">A Story Told by Village Hands</h2>
+                        <div class="accent-line"></div>
+                    </div>
+                    <div class="story-text animate-on-scroll">
+                        <p class="story-para">
+                            In the quiet coastal hamlets of southern India, life revolves around the steady sway of the coconut tree. For generations, every leaf, husk, and branch has held a purpose. **Mann & Leaf** was born out of a desire to protect and share this traditional wisdom before it fades beneath the hum of plastic factories.
+                        </p>
+                        <p class="story-para">
+                            We work side-by-side with rural family artisans who inherit age-old skills. Harvesting wild, renewable raw materials like sturdy coconut midribs, coarse coir, golden jute, and local river clay, they handcraft each item slowly and with meticulous care.
+                        </p>
+                        <p class="story-para">
+                            This isn't just retail. It is an effort to bring rustic authenticity, durable village utility, and sustainable living back to the hearts of modern Indian households—while providing direct, dignified livelihoods to our rural creators.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="story-highlight-quote animate-on-scroll">
+                    <p class="quote-text">
+                        "Each item carries the faint scent of rain-washed leaves, coastal sand, and the unwavering dedication of the hands that shaped it."
+                    </p>
+                    <span class="quote-author">— The Artisans of Mann & Leaf</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Product Categories Section -->
+        <section class="products-section" id="products">
+            <div class="section-container">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-eyebrow">The Collection</span>
+                    <h2 class="section-title">Earthy Utilities For Daily Life</h2>
+                    <p class="section-subtitle">Meticulously curated household items, crafted purely out of nature's bounty.</p>
+                    <div class="accent-line mx-auto"></div>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Category 1: Coconut Brooms (Hero Product) -->
+                    <article class="product-card animate-on-scroll">
+                        <div class="card-image-wrapper">
+                            <img src="assets/hero_broom.png" alt="Handcrafted Coconut Broom with premium stitch" class="card-img">
+                            <span class="card-tag">Hero Product</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Village Made</span>
+                            <h3 class="card-title">Coconut Brooms</h3>
+                            <p class="card-desc">Made from selected strong coconut tree leaf midribs, double-bound with organic fibers for lifetime durability.</p>
+                            <a href="#hero-product" class="card-link">View Spotlight <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Category 2: Coconut Scrubbers -->
+                    <article class="product-card animate-on-scroll">
+                        <div class="card-image-wrapper">
+                            <img src="assets/coconut_scrubber.png" alt="Coconut Coir Kitchen Scrubbers next to organic soap" class="card-img">
+                            <span class="card-tag">Kitchen Care</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Eco-Friendly</span>
+                            <h3 class="card-title">Coconut Scrubbers</h3>
+                            <p class="card-desc">Tough on grease, gentle on vessels. Fully compostable coir scrub pads made with zero synthetic glues or microplastics.</p>
+                            <a href="#marketplaces" class="card-link">Shop Now <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Category 3: Jute Bags -->
+                    <article class="product-card animate-on-scroll">
+                        <div class="card-image-wrapper">
+                            <img src="assets/jute_bag.png" alt="Minimalist golden jute tote bag hanging on a wooden peg" class="card-img">
+                            <span class="card-tag">Everyday Carry</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Daily Use</span>
+                            <h3 class="card-title">Jute Bags</h3>
+                            <p class="card-desc">High-tensile golden jute fabric bags with sturdy cotton-reinforced handles. Perfect for groceries, books, and day trips.</p>
+                            <a href="#marketplaces" class="card-link">Shop Now <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Category 4: Bamboo Utility Products -->
+                    <article class="product-card animate-on-scroll">
+                        <div class="card-image-wrapper placeholder-image-wrapper">
+                            <!-- Premium SVG Design Concept for Bamboo -->
+                            <svg class="card-placeholder-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" fill="var(--color-sand)" opacity="0.4"/>
+                                <path d="M30 90V10M70 90V10M50 90V10" stroke="var(--color-brown)" stroke-width="2" stroke-dasharray="12 4" opacity="0.6"/>
+                                <path d="M25 40C35 45 40 35 50 40C60 45 65 35 75 40" stroke="var(--color-green)" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="50" cy="50" r="15" stroke="var(--color-brown)" stroke-width="1.5" fill="none"/>
+                            </svg>
+                            <span class="card-tag">Utility</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Natural</span>
+                            <h3 class="card-title">Bamboo Utility Products</h3>
+                            <p class="card-desc">Organizers, toothbrushes, and table mats hand-carved from seasoned Himalayan bamboo. Light, clean, and naturally antiseptic.</p>
+                            <span class="status-tag">Expanding Soon</span>
+                        </div>
+                    </article>
+
+                    <!-- Category 5: Coconut Leaf Baskets -->
+                    <article class="product-card animate-on-scroll">
+                        <div class="card-image-wrapper placeholder-image-wrapper">
+                            <!-- Premium SVG Design Concept for Baskets -->
+                            <svg class="card-placeholder-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" fill="var(--color-sand)" opacity="0.4"/>
+                                <path d="M10 20C30 5 70 5 90 20M10 20V80C10 90 90 90 90 80V20" stroke="var(--color-brown)" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M10 40H90M10 60H90M20 20V80M40 10V85M60 10V85M80 20V80" stroke="var(--color-brown)" stroke-width="1" opacity="0.4"/>
+                            </svg>
+                            <span class="card-tag">Storage</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Handmade</span>
+                            <h3 class="card-title">Coconut Leaf Baskets</h3>
+                            <p class="card-desc">Flexible yet robust baskets woven from sun-dried coconut leaves. Elegant storage solutions for fruits, toys, or hand towels.</p>
+                            <span class="status-tag">Expanding Soon</span>
+                        </div>
+                    </article>
+
+                    <!-- Category 6: Clay & Terracotta Items -->
+                    <article class="product-card animate-on-scroll">
+                        <div class="card-image-wrapper">
+                            <img src="assets/clay_pot.png" alt="Earthy clay pots and terracotta vessels on a wooden bench" class="card-img">
+                            <span class="card-tag">Tableware</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-badge">Village Made</span>
+                            <h3 class="card-title">Clay & Terracotta Items</h3>
+                            <p class="card-desc">Slow-baked riverbed clay pots, cups, and curd-setters. Adds traditional minerals and cooling properties to your daily food and water.</p>
+                            <a href="#marketplaces" class="card-link">Shop Now <span class="arrow">&rarr;</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Why Mann & Leaf Section -->
+        <section class="why-us-section" id="why-us">
+            <div class="section-container">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-eyebrow">The Difference</span>
+                    <h2 class="section-title">Rooted in Authenticity</h2>
+                    <p class="section-subtitle">Why conscious Indian households choose our village crafts over plastic utilities.</p>
+                    <div class="accent-line mx-auto"></div>
+                </div>
+
+                <div class="why-us-grid">
+                    <!-- Point 1 -->
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon-wrapper">
+                            <!-- Custom Artisan Hands Icon -->
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M8 11h8M12 7v8"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Artisan Led</h3>
+                        <p class="why-card-text">Every product is crafted individually by skilled rural family artisans keeping ancestral heritage alive, not mass-stamped on heavy factory conveyor belts.</p>
+                    </div>
+
+                    <!-- Point 2 -->
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon-wrapper">
+                            <!-- Custom Raw Materials Icon -->
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"/>
+                                <path d="M12 6v12M6 12h12"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Pure & Natural</h3>
+                        <p class="why-card-text">We strictly use sustainably sourced organic raw materials like coconut shell fiber, local bamboo, sun-dried leaves, jute, and untreated clay.</p>
+                    </div>
+
+                    <!-- Point 3 -->
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon-wrapper">
+                            <!-- Custom Daily Utility Icon -->
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <path d="M9 3v18M15 3v18M3 9h18M3 15h18"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Everyday Practicality</h3>
+                        <p class="why-card-text">These are not decorative showcase dust-collectors. They are highly functional, robust cleaning, storing, and dining utilities made for heavy daily use.</p>
+                    </div>
+
+                    <!-- Point 4 -->
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon-wrapper">
+                            <!-- Custom Low Waste Icon -->
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 9.58A10.96 10.96 0 0 1 22 12c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2c2.42 0 4.63.86 6.36 2.3"/>
+                                <path d="m22 2-10 10M16 12h6V6"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Zero-Plastic & Low-Waste</h3>
+                        <p class="why-card-text">From our fiber bindings to packaging, we avoid synthetics. Our processing footprint is near-zero, leaving a clean legacy for our children.</p>
+                    </div>
+
+                    <!-- Point 5 -->
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon-wrapper">
+                            <!-- Custom Village Sourcing Icon -->
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Village Sourced</h3>
+                        <p class="why-card-text">We keep the economy decentralized. By paying fair-trade artisan rates directly, we keep wealth in families, making migration to cities unnecessary.</p>
+                    </div>
+
+                    <!-- Point 6 -->
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon-wrapper">
+                            <!-- Custom Premium Quality Icon -->
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Beautifully Packaged</h3>
+                        <p class="why-card-text">Every object is refined, branded cleanly, and securely wrapped. It feels like an organic art piece, making it a perfect, practical housewarming gift.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Process Section -->
+        <section class="process-section" id="process">
+            <!-- Diagonal organic waves in background -->
+            <div class="process-bg-decoration" aria-hidden="true"></div>
+            
+            <div class="section-container">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-eyebrow">The Journey</span>
+                    <h2 class="section-title">From Tree to Hearth</h2>
+                    <p class="section-subtitle">How a simple coconut tree branch becomes a premium household essential.</p>
+                    <div class="accent-line mx-auto"></div>
+                </div>
+
+                <div class="process-flow">
+                    <!-- Step 1 -->
+                    <div class="process-step animate-on-scroll">
+                        <div class="step-number-container">
+                            <span class="step-num">01</span>
+                            <div class="step-circle">
+                                <!-- Leaf/Tree Icon -->
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22V12M12 12c4.4-4.4 7-10 7-10S13.4 4.6 9 9c-3.2 3.2-3.8 8-2 10 1.8 1.8 6.6 1.2 9.8-2z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="step-title">1. Raw Sourcing</h3>
+                        <p class="step-desc">Strong coconut leaf stems are harvested sustainably from rural organic plantations without harming trees.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="process-step animate-on-scroll">
+                        <div class="step-number-container">
+                            <span class="step-num">02</span>
+                            <div class="step-circle">
+                                <!-- Hand/Preparation Icon -->
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a4 4 0 0 0 0-8z"/>
+                                    <path d="M12 2v4M12 14v2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="step-title">2. Hand Prep</h3>
+                        <p class="step-desc">Leaves are carefully stripped of their blades, leaving smooth, high-flexibility midribs which are sun-dried for days.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="process-step animate-on-scroll">
+                        <div class="step-number-container">
+                            <span class="step-num">03</span>
+                            <div class="step-circle">
+                                <!-- Finishing/Weaving Icon -->
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="step-title">3. Craft Finishing</h3>
+                        <p class="step-desc">Artisans bundle the dried ribs meticulously, binding the grip with thick coconut coir braids for a tight slip-proof handle.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="process-step animate-on-scroll">
+                        <div class="step-number-container">
+                            <span class="step-num">04</span>
+                            <div class="step-circle">
+                                <!-- Home/Essential Icon -->
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="step-title">4. Home Essential</h3>
+                        <p class="step-desc">A premium, highly durable, and ergonomic broom reaches your modern home, carrying an organic village essence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Featured Hero Product Section -->
+        <section class="hero-product-section" id="hero-product">
+            <div class="section-container">
+                <div class="hero-product-grid">
+                    <div class="product-gallery animate-on-scroll">
+                        <div class="hero-product-card-wrapper">
+                            <img src="assets/hero_broom.png" alt="Close up details of premium coconut broom organic stitching" class="hero-product-detail-img">
+                            <div class="gallery-badge">Launch Special</div>
+                        </div>
+                    </div>
+
+                    <div class="product-info animate-on-scroll">
+                        <span class="info-eyebrow">Hero of the House</span>
+                        <h2 class="product-info-title">The Premium Coconut Broom</h2>
+                        <div class="accent-line"></div>
+                        
+                        <p class="product-info-description">
+                            Traditional plastic brooms generate shedding microparticles and split within months. Our Coconut Broom is engineered using highly elastic, select midribs. Hand-stitched with double-strength coconut leaf bindings, it is designed specifically for rugged sweeping on rough Indian balconies, tile, slate, and garden pathways.
+                        </p>
+
+                        <div class="key-benefits-list">
+                            <div class="benefit-item">
+                                <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <div>
+                                    <strong>Extra-Dense Midribs:</strong> Sweeps even the finest dry sand and leaves easily.
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <div>
+                                    <strong>Ergonomic Handwoven Grip:</strong> Natural palm-resting handle with zero-slip.
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <div>
+                                    <strong>Highly Elastic:</strong> Stems bend naturally under pressure without snapping.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pack-sizes">
+                            <span class="pack-label">Pack Options:</span>
+                            <div class="pack-badges">
+                                <span class="pack-badge">Single Artisan Pack</span>
+                                <span class="pack-badge-accent">Family Utility (Pack of 2)</span>
+                                <span class="pack-badge">Boutique Box (Pack of 5)</span>
+                            </div>
+                        </div>
+
+                        <div class="product-cta-block">
+                            <a href="#marketplaces" class="btn btn-primary">Shop on Marketplaces</a>
+                            <span class="helper-text">100% money back guarantee on durability.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Marketplace Section -->
+        <section class="marketplace-section" id="marketplaces">
+            <div class="section-container text-center">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-eyebrow">Available Online</span>
+                    <h2 class="section-title">Shop On Your Preferred Platform</h2>
+                    <p class="section-subtitle">We partner with leading Indian marketplaces to deliver village warmth to your doorstep.</p>
+                    <div class="accent-line mx-auto"></div>
+                </div>
+
+                <div class="marketplace-grid">
+                    <!-- Amazon Card -->
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-logo-wrapper">
+                            <!-- Custom Styled Minimalistic Amazon Brand Logo Text -->
+                            <span class="market-brand-name">amazon</span>
+                        </div>
+                        <p class="market-card-text">Free Prime shipping and bulk family combo discounts on our entire launch collection.</p>
+                        <span class="market-badge market-active">Active</span>
+                        <a href="https://www.amazon.in" target="_blank" rel="noopener noreferrer" class="btn-market">Shop on Amazon <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                    <!-- Flipkart Card -->
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-logo-wrapper">
+                            <span class="market-brand-name">flipkart</span>
+                        </div>
+                        <p class="market-card-text">Fast doorstep shipping across Tier-2 and Tier-3 Indian cities with secure cash-on-delivery options.</p>
+                        <span class="market-badge market-active">Active</span>
+                        <a href="https://www.flipkart.com" target="_blank" rel="noopener noreferrer" class="btn-market">Shop on Flipkart <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                    <!-- Meesho Card -->
+                    <div class="market-card animate-on-scroll">
+                        <div class="market-logo-wrapper">
+                            <span class="market-brand-name">meesho</span>
+                        </div>
+                        <p class="market-card-text">Lowest-direct pricing model tailored for budget-conscious homeowners and reseller groups.</p>
+                        <span class="market-badge market-upcoming">Coming Soon</span>
+                        <button class="btn-market-disabled" disabled>Unveiling Shortly</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Wholesale / Bulk Inquiry Section -->
+        <section class="wholesale-section" id="wholesale">
+            <div class="section-container">
+                <div class="wholesale-grid">
+                    <div class="wholesale-info animate-on-scroll">
+                        <span class="section-eyebrow">For Partners</span>
+                        <h2 class="section-title">Wholesale & Bulk Inquiries</h2>
+                        <div class="accent-line"></div>
+                        
+                        <p class="wholesale-intro">
+                            Are you a boutique homeware store, an eco-friendly gift curator, an organic supermarket chain, or a corporate gifting agency looking for authentic products?
+                        </p>
+                        <p class="wholesale-text">
+                            We supply high-grade custom branded products at highly competitive rates for orders exceeding **50 units**. Our artisans can customize lengths, pack sizes, and handles to suit your brand aesthetic.
+                        </p>
+
+                        <div class="wholesale-trust-bullets">
+                            <div class="trust-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                                <span>GST Registered Invoice & Secure Village Logistics</span>
+                            </div>
+                            <div class="trust-bullet">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+                                </svg>
+                                <span>Direct fair-trade sourcing to support CSR goals</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wholesale-form-wrapper animate-on-scroll">
+                        <!-- Bulk Inquiry Form -->
+                        <form id="inquiry-form" class="wholesale-form" novalidate>
+                            <h3 class="form-title">Send a Inquiry</h3>
+                            <p class="form-subtitle">Our rural partnership team will get back to you within 24 hours.</p>
+
+                            <!-- Name -->
+                            <div class="form-group">
+                                <input type="text" id="partner-name" name="name" class="form-input" placeholder=" " required>
+                                <label for="partner-name" class="form-label">Full Name *</label>
+                                <span class="error-message" id="partner-name-error">Please enter your name</span>
+                            </div>
+
+                            <!-- Shop Name -->
+                            <div class="form-group">
+                                <input type="text" id="shop-name" name="shop" class="form-input" placeholder=" " required>
+                                <label for="shop-name" class="form-label">Business / Shop Name *</label>
+                                <span class="error-message" id="shop-name-error">Please enter your shop or business name</span>
+                            </div>
+
+                            <!-- Quantity -->
+                            <div class="form-group">
+                                <input type="number" id="order-qty" name="quantity" class="form-input" min="50" placeholder=" " required>
+                                <label for="order-qty" class="form-label">Quantity Needed (Min. 50) *</label>
+                                <span class="error-message" id="order-qty-error">Please enter a quantity (Minimum 50)</span>
+                            </div>
+
+                            <!-- Phone Number -->
+                            <div class="form-group">
+                                <input type="tel" id="partner-phone" name="phone" class="form-input" placeholder=" " required>
+                                <label for="partner-phone" class="form-label">Phone Number / WhatsApp *</label>
+                                <span class="error-message" id="partner-phone-error">Please enter a valid 10-digit phone number</span>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <textarea id="partner-msg" name="message" class="form-textarea" placeholder=" " rows="4" required></textarea>
+                                <label for="partner-msg" class="form-label">Specify product categories & custom requests *</label>
+                                <span class="error-message" id="partner-msg-error">Please describe your requirements</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">Submit Inquiry</button>
+                        </form>
+
+                        <!-- Custom Success Modal (Hidden by default) -->
+                        <div class="success-card" id="form-success" style="display: none;">
+                            <div class="success-icon-wrapper">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="success-title">Inquiry Sent Successfully!</h3>
+                            <p class="success-text">Dhanyavaad! Thank you for supporting our village artisans. Our coordinator will review your custom requests and reach out on WhatsApp/Call shortly.</p>
+                            <button type="button" class="btn btn-secondary" id="reset-form-btn">Submit Another Inquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Testimonials or Future Vision Section -->
+        <section class="vision-section">
+            <div class="section-container text-center animate-on-scroll">
+                <div class="vision-content">
+                    <span class="vision-eyebrow">Our Core Vision</span>
+                    <h2 class="vision-title">“To bring village-made natural products into everyday modern homes.”</h2>
+                    <p class="vision-desc">
+                        We believe that modern urbanization doesn’t require us to disconnect from the earth. By standardizing high-end quality controls and making village-made items accessible to contemporary homes, we foster a healthier household, a plastic-free future, and sustainable rural prosperity.
+                    </p>
+                    <div class="vision-signature">
+                        <span class="brand-name">Mann & Leaf</span>
+                        <span class="brand-concept">Handmade in India</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 10. Footer -->
+    <footer class="main-footer">
+        <div class="section-container footer-container">
+            <div class="footer-brand animate-on-scroll">
+                <div class="logo-group">
+                    <!-- Footer Handcrafted Logo -->
+                    <svg class="brand-logo" width="35" height="35" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 15C38 30 25 45 25 60C25 75 35 85 50 85C65 85 75 75 75 60C75 45 62 30 50 15Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M50 25V80" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M35 52C42 50 48 50 50 52" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M50 58C52 56 58 56 65 58" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                    <span class="brand-name">Mann & Leaf</span>
+                </div>
+                <p class="footer-text">
+                    Pure eco-friendly household utilities designed to honor village craftsmanship and promote mindful modern living.
+                </p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Mann & Leaf on Instagram" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Mann & Leaf on Facebook" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Mann & Leaf on Pinterest" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 22a9 9 0 0 1-5-15.5l1.5 1.5A7 7 0 1 0 15 13c0-3.86-3-7-7-7v-2a9 9 0 1 1 0 18z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links animate-on-scroll">
+                <h4 class="footer-heading">Navigate</h4>
+                <ul class="footer-list">
+                    <li><a href="#story" class="footer-link">Our Story</a></li>
+                    <li><a href="#products" class="footer-link">Earthy Collection</a></li>
+                    <li><a href="#why-us" class="footer-link">Why Choose Us</a></li>
+                    <li><a href="#process" class="footer-link">Sourcing Process</a></li>
+                    <li><a href="#hero-product" class="footer-link">Broom Spotlight</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact animate-on-scroll">
+                <h4 class="footer-heading">Connect with Us</h4>
+                <ul class="footer-contact-list">
+                    <li class="contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <a href="mailto:namaste@mannandleaf.com">namaste@mannandleaf.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </li>
+                    <li class="contact-item-text">
+                        <span>Office: Coir Artisans Cluster, Alappuzha, Kerala, India - 688001</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            <div class="section-container footer-bottom-container">
+                <p class="copyright">&copy; 2026 Mann & Leaf. Handcrafted in India. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
