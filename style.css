@@ -1822,3 +1822,46 @@ body.dark-mode .form-group.invalid .form-textarea {
 .animate-on-scroll:nth-child(4) { transition-delay: 0.3s; }
 .animate-on-scroll:nth-child(5) { transition-delay: 0.4s; }
 .animate-on-scroll:nth-child(6) { transition-delay: 0.5s; }
+
+/* --------------------------------------------------------------------------
+   17. AUDITED COMPONENT ADJUSTMENTS (Hero Bullets & Marketplace Disables)
+   -------------------------------------------------------------------------- */
+.hero-bullets {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+@media (min-width: 480px) {
+    .hero-bullets {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-xs) var(--spacing-md);
+    }
+}
+.hero-bullets li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+}
+.bullet-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-green);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Marketplace notice style */
+.marketplace-notice {
+    margin-top: var(--spacing-lg);
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
